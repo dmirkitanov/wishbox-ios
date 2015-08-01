@@ -1,0 +1,27 @@
+//
+//  wishbox.pch
+//  wishbox
+//
+//  Copyright (c) 2015 Dmitry Mirkitanov. All rights reserved.
+//
+
+#ifndef wishbox_wishbox_pch
+#define wishbox_wishbox_pch
+
+#ifdef __OBJC__
+
+#import "Masonry.h"
+
+#import "Utils.h"
+#import "Settings.h"
+
+#import "GAI.h"
+#import "GAIFields.h"
+#import "GAIDictionaryBuilder.h"
+
+#import "SVProgressHUD.h"
+#import "Analytics.h"
+
+#endif
+
+#endif

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="OpenSans-Regular.ttf">
+            <string>OpenSans</string>
+            <string>OpenSans</string>
+            <string>OpenSans</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="FriendsTableViewCell" rowHeight="50" id="c64-3N-c4a" customClass="FriendsTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="c64-3N-c4a" id="vW8-9C-3w6">
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="star_small" translatesAutoresizingMaskIntoConstraints="NO" id="y9h-aH-ECf">
+                        <rect key="frame" x="8" y="18" width="13" height="13"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="13" id="09X-XY-q23"/>
+                            <constraint firstAttribute="height" constant="13" id="2ya-1J-OSa"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zx2-GD-Wsh" userLabel="list title label">
+                        <rect key="frame" x="29" y="13" width="185" height="24"/>
+                        <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                        <variation key="widthClass=compact" misplaced="YES">
+                            <rect key="frame" x="13" y="12" width="307" height="21"/>
+                        </variation>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="750" verticalHuggingPriority="251" horizontalCompressionResistancePriority="1000" text="42" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y1z-5T-6um" userLabel="app count label">
+                        <rect key="frame" x="234" y="13" width="20" height="24"/>
+                        <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                        <variation key="widthClass=compact" misplaced="YES">
+                            <rect key="frame" x="340" y="2" width="45" height="21"/>
+                        </variation>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="750" verticalHuggingPriority="251" horizontalCompressionResistancePriority="1000" text="apps" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ug0-5c-0ve" userLabel="app label">
+                        <rect key="frame" x="257" y="17" width="30" height="18"/>
+                        <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="13"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                        <variation key="widthClass=compact" misplaced="YES">
+                            <rect key="frame" x="340" y="22" width="45" height="21"/>
+                        </variation>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="ug0-5c-0ve" secondAttribute="trailing" id="9cY-Jp-rZb"/>
+                    <constraint firstAttribute="centerY" secondItem="y1z-5T-6um" secondAttribute="centerY" id="DBB-nk-Jzh"/>
+                    <constraint firstItem="zx2-GD-Wsh" firstAttribute="leading" secondItem="y9h-aH-ECf" secondAttribute="trailing" constant="8" id="Hcy-TP-Ad1"/>
+                    <constraint firstAttribute="centerY" secondItem="zx2-GD-Wsh" secondAttribute="centerY" id="Hsh-H2-ixN"/>
+                    <constraint firstAttribute="trailing" secondItem="y1z-5T-6um" secondAttribute="trailing" constant="2" id="JzF-7Z-mGk"/>
+                    <constraint firstItem="y1z-5T-6um" firstAttribute="width" secondItem="ug0-5c-0ve" secondAttribute="width" id="MFK-OF-VOD"/>
+                    <constraint firstItem="ug0-5c-0ve" firstAttribute="baseline" secondItem="y1z-5T-6um" secondAttribute="baseline" id="QsT-v2-4ta"/>
+                    <constraint firstItem="y1z-5T-6um" firstAttribute="leading" secondItem="zx2-GD-Wsh" secondAttribute="trailing" constant="20" id="X3J-xq-eul"/>
+                    <constraint firstItem="ug0-5c-0ve" firstAttribute="leading" secondItem="y1z-5T-6um" secondAttribute="trailing" constant="3" id="ffP-Hv-xta"/>
+                    <constraint firstAttribute="centerY" secondItem="ug0-5c-0ve" secondAttribute="centerY" id="jX5-MR-vJd"/>
+                    <constraint firstItem="y9h-aH-ECf" firstAttribute="leading" secondItem="vW8-9C-3w6" secondAttribute="leading" constant="8" id="lPC-iq-Qna"/>
+                    <constraint firstAttribute="centerY" secondItem="y9h-aH-ECf" secondAttribute="centerY" id="sic-8y-KhZ"/>
+                    <constraint firstItem="zx2-GD-Wsh" firstAttribute="top" secondItem="vW8-9C-3w6" secondAttribute="topMargin" constant="5" id="t0w-el-2Ao"/>
+                </constraints>
+                <variation key="default">
+                    <mask key="constraints">
+                        <exclude reference="t0w-el-2Ao"/>
+                        <exclude reference="JzF-7Z-mGk"/>
+                        <exclude reference="MFK-OF-VOD"/>
+                        <exclude reference="jX5-MR-vJd"/>
+                    </mask>
+                </variation>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="appCountLabel" destination="y1z-5T-6um" id="6fL-Dg-qny"/>
+                <outlet property="appLabel" destination="ug0-5c-0ve" id="1fn-Zi-zbX"/>
+                <outlet property="favoriteImageView" destination="y9h-aH-ECf" id="uSM-y1-pSP"/>
+                <outlet property="listTitleLabel" destination="zx2-GD-Wsh" id="NDN-0B-cbl"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="star_small" width="13" height="13"/>
+    </resources>
+</document>

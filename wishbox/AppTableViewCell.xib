@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="OpenSans-Regular.ttf">
+            <string>OpenSans</string>
+            <string>OpenSans</string>
+            <string>OpenSans</string>
+            <string>OpenSans</string>
+            <string>OpenSans</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="77" id="KGk-i7-Jjw" customClass="AppTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="78"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wpE-ff-Nxs" userLabel="title">
+                        <rect key="frame" x="82" y="20" width="165" height="22"/>
+                        <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="16"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="opv-2k-Cma" userLabel="category">
+                        <rect key="frame" x="82" y="44" width="165" height="18"/>
+                        <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="13"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="1000" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5AG-sy-R9k" userLabel="price">
+                        <rect key="frame" x="267" y="27" width="43" height="24"/>
+                        <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="1000" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xto-ue-5k4" userLabel="discounted price">
+                        <rect key="frame" x="267" y="21" width="43" height="24"/>
+                        <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="placeholder57" translatesAutoresizingMaskIntoConstraints="NO" id="be1-5Z-PuQ" userLabel="icon">
+                        <rect key="frame" x="15" y="10" width="57" height="57"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="57" id="Dp7-ib-kgX"/>
+                            <constraint firstAttribute="height" constant="57" id="vcZ-WV-XPf"/>
+                        </constraints>
+                    </imageView>
+                    <view opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1fX-nS-crH">
+                        <rect key="frame" x="267" y="41" width="43" height="21"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="1000" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sap-xl-2I0" userLabel="old price" customClass="StrikeThroughLabel">
+                                <rect key="frame" x="5" y="0.0" width="38" height="21"/>
+                                <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="15"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="sap-xl-2I0" secondAttribute="bottom" id="c8Q-Bz-6lt"/>
+                            <constraint firstAttribute="trailing" secondItem="sap-xl-2I0" secondAttribute="trailing" id="hlw-LU-cl8"/>
+                            <constraint firstAttribute="centerX" secondItem="sap-xl-2I0" secondAttribute="centerX" id="ntd-P1-i2O"/>
+                            <constraint firstItem="sap-xl-2I0" firstAttribute="top" secondItem="1fX-nS-crH" secondAttribute="top" id="pXU-gR-Vdr"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="ntd-P1-i2O"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="centerY" secondItem="1fX-nS-crH" secondAttribute="centerY" constant="-13" id="393-ny-TJ2"/>
+                    <constraint firstItem="5AG-sy-R9k" firstAttribute="width" secondItem="Xto-ue-5k4" secondAttribute="width" id="6KV-Rl-hit"/>
+                    <constraint firstAttribute="centerY" secondItem="5AG-sy-R9k" secondAttribute="centerY" id="6cF-1A-7rE"/>
+                    <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="be1-5Z-PuQ" secondAttribute="bottom" constant="10" id="90P-A0-dZC"/>
+                    <constraint firstAttribute="centerY" secondItem="be1-5Z-PuQ" secondAttribute="centerY" id="BD8-gj-TSh"/>
+                    <constraint firstItem="wpE-ff-Nxs" firstAttribute="leading" secondItem="be1-5Z-PuQ" secondAttribute="trailing" constant="10" id="BLS-yf-0cu"/>
+                    <constraint firstItem="be1-5Z-PuQ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="GWR-mw-cns"/>
+                    <constraint firstItem="be1-5Z-PuQ" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="Yox-g2-JjU"/>
+                    <constraint firstItem="5AG-sy-R9k" firstAttribute="leading" secondItem="opv-2k-Cma" secondAttribute="trailing" constant="20" id="auL-vS-nlL"/>
+                    <constraint firstAttribute="centerY" secondItem="wpE-ff-Nxs" secondAttribute="centerY" constant="8" id="cfh-xo-oVt"/>
+                    <constraint firstAttribute="centerY" secondItem="Xto-ue-5k4" secondAttribute="centerY" constant="6" id="d6W-hA-siH"/>
+                    <constraint firstAttribute="bottom" secondItem="be1-5Z-PuQ" secondAttribute="bottom" constant="4" id="dSf-ZT-MHg"/>
+                    <constraint firstAttribute="centerY" secondItem="be1-5Z-PuQ" secondAttribute="centerY" id="er9-UL-J3O"/>
+                    <constraint firstItem="5AG-sy-R9k" firstAttribute="leading" secondItem="wpE-ff-Nxs" secondAttribute="trailing" constant="20" id="gKb-Me-A3H"/>
+                    <constraint firstItem="be1-5Z-PuQ" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="4" id="hJc-f6-pew"/>
+                    <constraint firstAttribute="bottom" secondItem="be1-5Z-PuQ" secondAttribute="bottom" constant="10" id="p8Q-70-P7j"/>
+                    <constraint firstAttribute="centerY" secondItem="opv-2k-Cma" secondAttribute="centerY" constant="-14" id="pCy-Ra-mAe"/>
+                    <constraint firstAttribute="trailing" secondItem="Xto-ue-5k4" secondAttribute="trailing" constant="10" id="sTy-8a-HQH"/>
+                    <constraint firstItem="1fX-nS-crH" firstAttribute="leading" secondItem="Xto-ue-5k4" secondAttribute="leading" id="t0d-z1-kQm"/>
+                    <constraint firstItem="1fX-nS-crH" firstAttribute="width" secondItem="Xto-ue-5k4" secondAttribute="width" id="uNn-T1-2k3"/>
+                    <constraint firstAttribute="trailing" secondItem="5AG-sy-R9k" secondAttribute="trailing" constant="10" id="w19-2R-nD4"/>
+                    <constraint firstItem="opv-2k-Cma" firstAttribute="leading" secondItem="be1-5Z-PuQ" secondAttribute="trailing" constant="10" id="x9K-cK-aYs"/>
+                </constraints>
+                <variation key="default">
+                    <mask key="constraints">
+                        <exclude reference="BD8-gj-TSh"/>
+                        <exclude reference="dSf-ZT-MHg"/>
+                        <exclude reference="er9-UL-J3O"/>
+                        <exclude reference="hJc-f6-pew"/>
+                        <exclude reference="p8Q-70-P7j"/>
+                    </mask>
+                </variation>
+            </tableViewCellContentView>
+            <inset key="separatorInset" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
+            <connections>
+                <outlet property="categoryLabel" destination="opv-2k-Cma" id="5rZ-nR-V0K"/>
+                <outlet property="discountedPriceLabel" destination="Xto-ue-5k4" id="aLX-DZ-b7A"/>
+                <outlet property="iconImageView" destination="be1-5Z-PuQ" id="bJg-k5-298"/>
+                <outlet property="oldPriceLabel" destination="sap-xl-2I0" id="YcA-zD-Hqi"/>
+                <outlet property="priceLabel" destination="5AG-sy-R9k" id="hE0-HZ-eIX"/>
+                <outlet property="titleLabel" destination="wpE-ff-Nxs" id="asO-js-bjO"/>
+            </connections>
+            <point key="canvasLocation" x="433" y="267"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="placeholder57" width="57" height="57"/>
+    </resources>
+</document>
